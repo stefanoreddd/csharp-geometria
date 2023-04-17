@@ -61,7 +61,7 @@ namespace Geometria
                 Console.Write(orizzontale);
             }
 
-            
+            Console.WriteLine(orizzontale);
 
             for (int i = 0; i < altezzaRettangolo; i++)
             {
@@ -79,6 +79,8 @@ namespace Geometria
             {
                 Console.Write(orizzontale);
             }
+
+            Console.WriteLine(orizzontale);
         }
     }
 }
