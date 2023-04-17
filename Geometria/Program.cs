@@ -36,19 +36,6 @@ Rettangolo rettangolo3 = new Rettangolo(30, 20);
 
 Rettangolo rettangolo4 = new Rettangolo(40, 30);
 
-/*
-rettangoloUser.calcolaPerimetro();
-rettangoloUser.calcolaArea();
-
-rettangolo2.calcolaPerimetro();
-rettangolo2.calcolaArea();
-
-rettangolo3.calcolaPerimetro();
-rettangolo3.calcolaArea();
-
-rettangolo4.calcolaPerimetro();
-rettangolo4.calcolaArea();
-*/
 
 
 rettangoloUser.displayInfoRettangolo();
