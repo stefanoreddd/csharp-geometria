@@ -39,12 +39,12 @@ namespace Geometria
 
         public void displayInfoRettangolo()
         {
-            Console.WriteLine("----- INFORMAZIONI RETTANGOLO UTENTE -----");
+            Console.WriteLine("----- INFORMAZIONI RETTANGOLO -----");
             Console.WriteLine("Base: " + baseRettangolo + " cm");
             Console.WriteLine("Altezza: " + altezzaRettangolo + " cm");
             Console.WriteLine("Perimetro: " + calcolaPerimetro() + " cm");
             Console.WriteLine("Area: " + calcolaArea() + " cm²");
-            Console.WriteLine("------------------------------------------");
+            Console.WriteLine("-----------------------------------");
             Console.WriteLine("");
             Console.WriteLine("");
         }

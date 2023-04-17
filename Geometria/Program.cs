@@ -36,6 +36,7 @@ Rettangolo rettangolo3 = new Rettangolo(30, 20);
 
 Rettangolo rettangolo4 = new Rettangolo(40, 30);
 
+/*
 rettangoloUser.calcolaPerimetro();
 rettangoloUser.calcolaArea();
 
@@ -47,40 +48,10 @@ rettangolo3.calcolaArea();
 
 rettangolo4.calcolaPerimetro();
 rettangolo4.calcolaArea();
+*/
 
 
 rettangoloUser.displayInfoRettangolo();
 rettangolo2.displayInfoRettangolo();
 rettangolo3.displayInfoRettangolo();
 rettangolo4.displayInfoRettangolo();
-
-/*
-Console.WriteLine("----- INFORMAZIONI RETTANGOLO 2 -----");
-Console.WriteLine("Base: " + rettangolo2.baseRettangolo + " cm");
-Console.WriteLine("Altezza: " + rettangolo2.altezzaRettangolo + " cm");
-Console.WriteLine("Perimetro: " + rettangolo2.calcolaPerimetro() + " cm");
-Console.WriteLine("Area: " + rettangolo2.calcolaArea() + " cm²");
-Console.WriteLine("-------------------------------------");
-Console.WriteLine("");
-Console.WriteLine("");
-
-
-Console.WriteLine("----- INFORMAZIONI RETTANGOLO 3 -----");
-Console.WriteLine("Base: " + rettangolo3.baseRettangolo + " cm");
-Console.WriteLine("Altezza: " + rettangolo3.altezzaRettangolo + " cm");
-Console.WriteLine("Perimetro: " + rettangolo3.calcolaPerimetro() + " cm");
-Console.WriteLine("Area: " + rettangolo3.calcolaArea() + " cm²");
-Console.WriteLine("-------------------------------------");
-Console.WriteLine("");
-Console.WriteLine("");
-
-
-Console.WriteLine("----- INFORMAZIONI RETTANGOLO 4 -----");
-Console.WriteLine("Base: " + rettangolo4.baseRettangolo + " cm");
-Console.WriteLine("Altezza: " + rettangolo4.altezzaRettangolo + " cm");
-Console.WriteLine("Perimetro: " + rettangolo4.calcolaPerimetro() + " cm");
-Console.WriteLine("Area: " + rettangolo4.calcolaArea() + " cm²");
-Console.WriteLine("-------------------------------------");
-Console.WriteLine("");
-Console.WriteLine("");
-*/
