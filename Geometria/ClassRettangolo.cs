@@ -46,9 +46,40 @@ namespace Geometria
             Console.WriteLine("Area: " + calcolaArea() + " cm²");
             Console.WriteLine("-----------------------------------");
             Console.WriteLine("");
+            drawRettangolo();
             Console.WriteLine("");
         }
 
+        public void drawRettangolo()
+        {
+            string orizzontale = "--";
+            string verticale = "|";
+
+
+            for (int i = 0; i < baseRettangolo - 1; i++)
+            {
+                Console.Write(orizzontale);
+            }
+
+            
+
+            for (int i = 0; i < altezzaRettangolo; i++)
+            {
+                Console.Write(verticale);
+                
+                for (int j = 0; j < baseRettangolo; j++)
+                {
+                    Console.Write("  ");
+                }
+
+                Console.WriteLine(verticale);
+            }
+
+            for (int i = 0; i < baseRettangolo - 1; i++)
+            {
+                Console.Write(orizzontale);
+            }
+        }
     }
 }
 
