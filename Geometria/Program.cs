@@ -15,11 +15,6 @@ base: 20 cm
 altezza: 10 cm
 Perimetro: 60 cm
 Area: 200 cm2
-
-
-BONUS:
-
-Aggiungere alla classe Rettangolo un metodo “disegna” che disegna in console il rettangolo con le sue dimensioni, ossia tanti “—” (due trattini) orizzontali quanto è grande la sua base e tanti ‘|’ verticali quanto e grande la sua altezza.
 */
 
 using Geometria;
@@ -91,13 +86,3 @@ Console.WriteLine("Area: " + rettangolo4.calcolaArea() + " cm²");
 Console.WriteLine("-------------------------------------");
 Console.WriteLine("");
 Console.WriteLine("");
-
-
-
-
-
-
-
-
-
-
