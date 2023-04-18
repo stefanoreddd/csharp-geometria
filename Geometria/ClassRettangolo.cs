@@ -55,6 +55,7 @@ namespace Geometria
             string orizzontale = "--";
             string verticale = "|";
 
+            
 
             for (int i = 0; i < baseRettangolo - 1; i++)
             {
@@ -67,13 +68,15 @@ namespace Geometria
             {
                 Console.Write(verticale);
                 
-                for (int j = 0; j < baseRettangolo; j++)
+                for (int j = 0; j < baseRettangolo - 1; j++)
                 {
                     Console.Write("  ");
                 }
 
                 Console.WriteLine(verticale);
             }
+
+            
 
             for (int i = 0; i < baseRettangolo - 1; i++)
             {
